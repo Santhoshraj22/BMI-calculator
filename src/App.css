@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body{
+width: 100vh;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: lightslategray;
+}
+
+.bmi-calculator{
+width: 500px;
+height: 500px;
+padding: 20px;
+background-color: white;
+border-top: 500px;
+border-radius: 15px;
+
+
+
+}
+
+.box{
+  
+  width: 300px;
+  background-image:url(bmi.jpg);
+  background-repeat: no-repeat;
+}
+.data{
+
+flex:1;
+padding: 20px;
+
+}
+
+h1{
+
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: darkblue;
+}
+
+.input-container{
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.label{
+
+  display: block;
+  margin-bottom: 20px;
+  display: flex;
+
+
+
+}
+.input{
+
+  width: 200px;
+  display: block;
+  border-radius: 10px;
+  padding: 10px;
+
+
+}
+.button{
+
+  background-color: lightblue;
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  
+
+}
+.button:hover{
+
+  background-color: black;
+  color: white;
+}
+.result{
+
+  margin-top: 10px;
+  margin: 10px;  
+  display: block;
+  text-align: left ;
+
+}
+
+.error{
+
+  color: red;
+}
+
+.clear{
+
+  background-color: rgb(203, 20, 20);
+  color: white;
+  display:inline-block;
+  justify-content: center;
+  flex-direction: row-reverse;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  
+  
+}
+
+.clear:hover{
+
+  background-color: black;
+  color: white;
+}
